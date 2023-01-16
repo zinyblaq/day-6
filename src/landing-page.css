@@ -1,0 +1,289 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+    font-family: Cabin,sans-serif;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+.main-landing {
+    background-color: #f9fbfe;
+}
+.landing{
+    max-width: 1233px;
+  margin: 0 auto;
+}
+
+.landing-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 46px;
+    margin-bottom: 50px;
+}
+.register-btn{  
+padding: 14px 20px;
+gap: 10px;
+width: 150px;
+height: 56px;
+background: #6200F0;
+border-radius: 6px;
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+}
+.login-btn{
+    width: 150px;
+height: 56px;
+border-radius: 6px;
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+border:1px solid #6200F0;
+color: #6200F0;
+margin-left: 1rem;
+background-color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.landing2{
+   max-width: 1210px;
+    margin-top: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:94px;
+    
+}
+.landing2-1{
+    background: url(secondSC.jpg);
+    background-repeat: no-repeat;
+    width: 567px;
+height: 299px;
+}
+.landing2-2 h1{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 53px;
+    
+    color: #030640;
+    
+}
+.landing2-2 p{
+    width: 567px;
+height: 114px;
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+
+color: rgba(51, 51, 51, 0.9);
+
+
+}
+.landing3{
+   
+    margin-top: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 94px;
+    
+}
+.landing3-2{
+    background: url(thirdSC.jpg);
+    background-repeat: no-repeat;
+    width: 567px;
+height: 299px;
+}
+.landing3-1 h1{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 53px;
+    
+    color: #030640;
+    
+}
+.landing3-1 p{
+    width: 567px;
+height: 114px;
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+
+color: rgba(51, 51, 51, 0.9);
+
+
+}
+.landing4{
+    max-width: 1200px;
+    margin: 0 auto;
+     padding-top: 153px;
+     padding-bottom: 148px;
+         display: flex;
+         /* grid-template-columns: 1fr 1fr; */
+         justify-content: space-between;
+         gap:94px;
+     
+ }
+ .landing4-1{
+     background: url(menhandshake.jpg);
+     background-repeat: no-repeat;
+     width: 589px;
+ height: 402px;
+ }
+ .landing4-2 h1{
+     font-family: 'Cabin';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 44px;
+     line-height: 53px;
+    margin: 0;
+     color: #030640;
+     
+ }
+ .landing4-2 p{
+     max-width: 487px;
+     margin-top: 24px;
+     margin-bottom: 46px;
+ /* height: 114px; */
+     font-family: 'Cabin';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 38px;
+ 
+ color: rgba(51, 51, 51, 0.9);
+ 
+ 
+ }
+ .section3{
+    background-color: #f9fbfe;
+    padding-bottom: 200px;
+    
+ }
+ .map{
+     position: relative;
+     background: url(map.png) ;
+     width: 1247px;
+     margin: 0 auto;
+ }
+ .landing5-1{
+     padding-top: 151px;
+ }
+ .landing5-1 h1{
+     max-width: 400px;
+     margin: 0 auto;
+     font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 53px;
+text-align: center;
+
+color: #030640;
+
+ }
+ .landing5-1 p{
+     padding-top: 24px;
+max-width: 602px;
+margin: 0 auto;
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+/* or 142% */
+
+text-align: center;
+
+color: rgba(51, 51, 51);
+     /* display: grid;
+     grid-template-columns: 1fr; */
+ }
+ .map-child{
+    /* background: url(card.png)  ;
+    background-repeat: no-repeat; */
+    background: #fff;
+    border-radius: 12px;
+
+    left: 423px;
+    width: 400px;
+    height: 229px;
+    padding: 59.28px 44px 56px;
+    position: absolute;
+    text-align: center;
+    top: 222px;
+    
+}
+.flowergirl{
+    position: absolute;
+    top: -25px;
+    right: 155px;
+    max-width: 80px;
+}
+.edittol{
+    position: absolute;
+    bottom: 144px;
+    left: 190px;
+    width: 27.15;
+}
+/* .map-child div{
+     margin: -96px auto 0;
+    
+ } */
+ .map-paragraph{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    padding-top: 29px;
+    text-align: center;
+    letter-spacing: -0.528px;
+    
+    color: #030640;
+    
+    
+ }
+ .map-name{
+    padding-top: 20px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.528px;
+    
+    color: #6200F0;
+    
+ }
+ .blog{
+     max-width: 1170px;
+     margin: 0 auto;
+    width: 1170px;
+    height: 757px;
+    /* padding-bottom: 200px; */
+
+ }
+ .blog img{
+     width: 100%;
+ }

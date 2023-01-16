@@ -1,0 +1,67 @@
+.header{
+  max-width: 1200px;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header-1 a{
+  text-decoration: none;
+  display: flex;
+}
+.header-1 img{
+  align-self: center;
+}
+.header-1 h1{
+width: 72px;
+height: 49px;
+align-self: center;
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+background: linear-gradient(180deg, #7729F5 0%, #FF7600 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+
+}
+.header-lists{
+  text-decoration: none; 
+  display: flex;
+  justify-content: space-between; 
+width: 662px;
+height: 56px;
+
+}
+.header-list{
+  padding: 0 1rem;
+  align-self: center;
+  font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+.header-list a{
+  text-decoration: none;
+color: #030640;
+}
+.button-primary a{
+  text-decoration: none;
+  align-items: center;
+    background: 
+    #6200F0;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 16px;
+    line-height: 19px;
+    padding: 18.5px 22px;
+}
