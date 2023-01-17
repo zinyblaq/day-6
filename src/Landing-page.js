@@ -13,7 +13,7 @@ import HomeFeatures from './text-image';
 // import youtube from './image/youtube.png';
 // import Header from './header';
 
-export default function LandingPage(text, image) {
+export default function LandingPage() {
   return (
     <div>
       <div className="main-landing">
@@ -21,18 +21,12 @@ export default function LandingPage(text, image) {
         <div className="landing">
           <div className="landing-1">
             <div className="landing-1-1">
-              <div>
-                <h1>Subscription Management Made Easy!</h1>
-
-                <HomeFeatures
-                  text="Flex is a susbscription management platform that allows you to
+              <HomeFeatures
+                text1="Subscription Management Made Easy!"
+                text2="Flex is a susbscription management platform that allows you to
                 manage multiple susbscription plans. It gives you the freedom to
                 control and keep track of your expenses."
-                  image
-                  src={blackwoman}
-                />
-              </div>
-
+              />
               <div className="landing-btn">
                 <button className="register-btn">REGISTER</button>
                 <button className="login-btn">LOGIN</button>
@@ -46,11 +40,10 @@ export default function LandingPage(text, image) {
                 />
               </div>
             </div>
+            {/* <h1></h1> */}
 
             <div className="landing-1-2">
-              {/* <img src={blackwoman} alt="a girl" /> */}
-
-              {/* <img src={blackwoman} alt="blackwoman" /> */}
+              <HomeFeatures image={blackwoman} />
             </div>
           </div>
 
