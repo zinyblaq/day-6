@@ -19,33 +19,35 @@ export default function LandingPage() {
       <div className="main-landing">
         <Header />
         <div className="landing">
-          <div className="landing-1">
-            <div className="landing-1-1">
-              <HomeFeatures
-                text1="Subscription Management Made Easy!"
-                text2="Flex is a susbscription management platform that allows you to
+          {/* <div className="landing-1"> */}
+          {/* <div className="landing-1-1"> */}
+          <div>
+            <HomeFeatures
+              text1="Subscription Management Made Easy!"
+              text2="Flex is a susbscription management platform that allows you to
                 manage multiple susbscription plans. It gives you the freedom to
                 control and keep track of your expenses."
-              />
-              <div className="landing-btn">
-                <button className="register-btn">REGISTER</button>
-                <button className="login-btn">LOGIN</button>
-              </div>
-              <div>
-                <img
-                  src={partnericon}
-                  alt="Partners icons"
-                  width="518px"
-                  height="70px"
-                />
-              </div>
+            />
+            <div className="landing-btn">
+              <button className="register-btn">REGISTER</button>
+              <button className="login-btn">LOGIN</button>
             </div>
-            {/* <h1></h1> */}
-
-            <div className="landing-1-2">
-              <HomeFeatures image={blackwoman} />
+            <div>
+              <img
+                src={partnericon}
+                alt="Partners icons"
+                width="518px"
+                height="70px"
+              />
             </div>
           </div>
+          {/* </div> */}
+          {/* <h1></h1> */}
+
+          <div className="landing-1-2">
+            <HomeFeatures image={blackwoman} />
+          </div>
+          {/* </div> */}
 
           <div className="landing2">
             <div className="landing2-1"></div>

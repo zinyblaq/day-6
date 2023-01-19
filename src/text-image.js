@@ -13,15 +13,11 @@ export default function HomeFeatures({ text1, text2, image, classname }) {
       {/* <h1></h1> */}
 
       <div className="landing-1-2">
-        <div className="landing-1-2">
-          <img src={image} alt="" />
-        </div>
+        {/* <div className="landing-1-2"> */}
+        <img src={image} alt="" />
+        {/* </div> */}
       </div>
+      {/* </div> */}
     </div>
-
-    //   <div className="hf-image">
-    //     <img src={image} alt="" />
-    //   </div>
-    // </div>
   );
 }
