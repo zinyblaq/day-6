@@ -42,6 +42,12 @@ export default function CompanyPage() {
           </div>
         </div>
       </div>
+      <div>
+        <div></div>
+        <div>
+          <img src={shoeimg} alt="men shoes" />
+        </div>
+      </div>
       <Footer />
     </div>
   );
