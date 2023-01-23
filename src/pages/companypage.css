@@ -1,0 +1,193 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+    font-family: Cabin,sans-serif;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+.section-1{
+   
+    display: flex;
+    gap: 30px;
+    margin-top: 68px;
+    max-width: 1233px;
+}
+.section-1-1{
+    margin-right: 34px;
+    margin-top: 100px;
+    /* position: relative; */
+}
+.section-1-1 h1{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 53px;
+    padding-bottom: 30px;
+    color: #030640;
+    
+}
+.section-1-1 p{
+    position: absolute;
+    height: 122px;
+    left: 50.58%;
+    right: 20.86%;
+    top: calc(50% - 122px/2 + 18.5px);
+    
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 156% */
+    
+    /* color: black; */
+    color: #FFFFFF;
+    
+}
+.section-1-1 img{
+    color: #6200F0;
+    mix-blend-mode: color;
+}
+.section-1-2{
+    background: url(HeroImage.png);
+    flex-shrink: 0;
+    width: 653px;
+    height:365px;
+}
+.section-1-2 img{
+    width: 100%;
+    /* flex-direction: ; */
+}
+.section-1-3{
+    width: 546px;
+    margin-top: 160px;
+    margin-bottom: 32px;
+height: 171px;
+}
+.section-1-3 h1{
+   
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 57px;
+/* or 158% */
+
+
+color: #030640;
+
+
+}
+.section2{
+    margin-bottom: 200px;
+}
+
+.company3{
+    background: #0C204C;
+    height: 754px;
+}
+.main-company3{
+    max-width: 1233px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.company3-img{
+    background: #1A2D57;
+    width: 527px;
+height: 418px;
+position: relative;
+}
+.shoeimage{
+    background: url("shoes.png");
+    background-repeat: no-repeat;
+    border: 3px solid #1A2D57;
+   /* border:1px solid  #1A2D57; */
+   width: 486px;
+   height: 384px;
+   position: absolute;
+    left: 3px;
+top: 70.59px;
+}
+.shoeimage-container{
+    
+}
+/* .shoe-image{
+    width: 465px;
+    height: 384px;
+   
+
+} */
+.dates{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+}
+.dates div{
+    background-color: 
+    #1A2D57;
+    Width:222px;
+Height:150px;
+border-radius: 10px;
+}
+.dates h1{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+width:43px;
+height: 36px;
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+padding-top: 44px;
+padding-left: 16px;
+}
+.dates p{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+padding-top: 26px;
+padding-left: 16px;
+/* font-variant: small-caps; */
+width:160px;
+color: #FFFFFF;
+
+}
+.main-company-text h1{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 68px;
+/* identical to box height, or 184% */
+
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+
+}
+
+.main-company-text p{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+
+color: #FFFFFF;
+
+}
