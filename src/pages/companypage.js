@@ -7,7 +7,12 @@ import heroimg from './HeroImage.png';
 import rest from './rest.png';
 import familyimg from './family.png';
 import computerimg from './computerwork.png';
-import shoeimg from './shoes.png';
+import HS from './HS.png';
+import BG from './BG.png';
+import fineboy from './Fineboy.png';
+import FP from './FP.png';
+import GOG from './GOG.png';
+import line from './Line.png';
 
 export default function CompanyPage() {
   return (
@@ -82,9 +87,13 @@ export default function CompanyPage() {
 
       <div className="company3">
         <div className="main-company3">
-          <div className="main-company-text">
-            <h1>How we’re doing</h1>
-            <p>Check out how Flex has been performing over the past decade.</p>
+          <div>
+            <div className="main-company-text">
+              <h1>How we’re doing</h1>
+              <p>
+                Check out how Flex has been performing over the past decade.
+              </p>
+            </div>
             <div className="dates">
               <div>
                 <h1>10</h1>
@@ -106,13 +115,65 @@ export default function CompanyPage() {
           </div>
           <div className="company3-img">
             <div className="shoeimage-container">
-              <div className="shoeimage"></div>
               {/* <img src={shoeimg} alt="shoeimage" className="shoe-image" /> */}
+            </div>
+            <div className="shoeimage"></div>
+            <div className="security">
+              <h1>Security</h1>
+            </div>
+            <div className="flexibiliy">
+              <h1>Flexibility</h1>
             </div>
           </div>
         </div>
       </div>
+      <div className="company4">
+        <div className="company4-text">
+          <h1>About Us</h1>
+          <p>
+            Flex combines great technology, subscription expertise, and a
+            customer service ethos to solve real-world problems and is committed
+            to becoming the operating system for your subscription business.
+          </p>
+          <p>
+            We provide a complete software platform for managing
+            telecommunication services, subscription services and billing
+            process.
+          </p>
+        </div>
 
+        <div className="executives">
+          <div className="fp">
+            <img src={FP} alt="Jiro Ejobe" />
+            <h3>Jiro Ejobe</h3>
+            <p>Managing Director (Founder)</p>
+          </div>
+          <div className="bg">
+            <img src={BG} alt="Naomi Saliu–Lawal" />
+            <h3>Naomi Saliu–Lawal</h3>
+            <p>Co - Founder</p>
+          </div>
+
+          <div>
+            <img src={fineboy} alt="Tijani Nwadei " />
+            <h3>Tijani Nwadei</h3>
+            <p>President of Finance</p>
+          </div>
+          <div>
+            <img src={HS} alt="Tunde Salimonu" />
+            <h3>Tunde Salimonu</h3>
+            <p>President, Global sales</p>
+          </div>
+          <div className="gog">
+            <img src={GOG} alt="Omowunmi Ikazoboh" />
+            <h3>Omowunmi Ikazoboh</h3>
+            <p>President, Customer success</p>
+          </div>
+        </div>
+      </div>
+      <div className="company5">
+        <img src={familyimg} alt="family" />
+      </div>
       <Footer />
     </div>
   );
