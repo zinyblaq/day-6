@@ -80,6 +80,7 @@ export default function CompanyPage() {
               the complexities of Recurring billing and Subscription Management.{' '}
             </p>
           }
+          // button={<button style={{ opacity: '0' }}>yes</button>}
           image={computerimg}
           isImageRight="true"
         />

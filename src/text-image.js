@@ -7,6 +7,7 @@ export default function HomeFeatures({
   text1,
   text2,
   image,
+  button,
   classname,
   isImageRight = false,
 }) {
@@ -21,6 +22,8 @@ export default function HomeFeatures({
       <div className="text-image-1-1">
         <h1>{text1}</h1>
         <p>{text2}</p>
+
+        {/* <button className="button">{button}</button> */}
       </div>
       {/* <h1></h1> */}
 
