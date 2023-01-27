@@ -1,0 +1,74 @@
+.main-featuredfun{
+    max-width: 1200px;
+    margin: 10rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.featuredfun-text{
+    align-self: center;
+}
+.featuredfun-text h1{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+width: 428px;
+height: 120px;
+
+color: #030640;
+}
+.featuredfun-text p{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* or 125% */
+margin-top: 16px;
+width: 371px;
+height: 60px;
+color: #333333;
+
+
+}
+.featuredfun-text-lists {
+    display: flex;
+    margin-top: 38px;
+    width: 300px;
+height: 60px;
+justify-content: space-between;
+}
+.featured-text-header3{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+align-self: center;
+width:232px;
+height: 64px;
+color: #030640;
+}
+.background-line{
+     background: url('./pages/backgroundline.png');
+background-repeat: no-repeat;
+padding: 17px; 
+position: relative;
+width:553px; 
+height: 570px;
+/* 
+border: 2px solid #6200F0;
+box-shadow: -2px 16px 27px rgba(111, 118, 138, 0.1);
+border-radius: 48px; */
+
+}
+.background-line img {
+    position: absolute;
+    /* width: 100px; */
+    /* height: 100px; */
+    left: -15px;
+    top: -17px;
+}
