@@ -21,7 +21,7 @@ export default function Header() {
           </li>
 
           <li className="header-list">
-            <Link to="/blog">Blogs</Link>
+            <Link to="/blogs">Blogs</Link>
           </li>
           <li className="header-list">
             <Link to="/partnership">Partnership</Link>

@@ -1,0 +1,99 @@
+.blog-section1 h1{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    /* or 114% */
+    width: 765px;
+    text-align: center;
+    padding-top: 132px;
+    padding-bottom: 32px;
+    color: #030640;
+    text-align: center;
+    
+}
+.blog-section1 p{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+/* or 146% */
+width:732px;
+text-align: center;
+padding-bottom: 64px;
+color: rgba(51, 51, 51, 0.9);
+
+}
+.blog-section1{
+    max-width: 765px;
+    margin: 0 auto;
+}
+.blog-section2{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 1170px;
+    height:568px ;
+    background: #FFFFFF;
+box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.06);
+border-radius: 12px;
+display: flex;
+justify-content: space-between;
+}
+.blog-section2-text{
+padding-left: 69px;
+padding-top: 84px;
+}
+.blog-section2-text h1{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+    /* or 132% */
+    width: 438px;
+    padding-bottom: 24px;
+    color: #030640;
+    
+}
+.blog-section2-text p{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 32px;
+/* or 152% */
+width: 415px;
+/* height: 128px; */
+padding-bottom: 48px;
+color: rgba(51, 51, 51, 0.9);
+}
+.blog-section2-text-1{
+    display: flex;
+    justify-content: space-between;
+    width: 296px;
+    align-items: center;
+}
+.blog-section3{
+    max-width: 1170px;
+    margin: 120px auto;
+    display: flex;
+    /* width: 1170px; */
+    /* height: 757px; */
+    
+}
+.blog-section4{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    /* width: 1170px; */
+    /* height: 757px; */
+    
+}
+.blog-section5{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 250px;
+}

@@ -1,0 +1,133 @@
+.partner-section1{
+    /* background: #E5E5E5; */
+    display: flex;
+    gap: 30px;
+    padding-top: 150px;
+    padding-bottom: 153px;
+    margin: 0 auto;
+    max-width: 1233px;
+    max-width: 1200px;
+}
+.partner-section1-1{
+    margin-right: 34px;
+    margin-top: 100px;
+    /* position: relative; */
+}
+.partner-section1-1 h1{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 53px;
+    padding-bottom: 30px;
+    color: #030640;
+    
+}
+
+.partner-section1-1 img{
+    color: #6200F0;
+    mix-blend-mode: color;
+}
+.partner-section1-2{
+    background: url(menhandshake.jpg);
+    flex-shrink: 0;
+    width: 653px;
+    height:365px;
+}
+.partner-section1-2 img{
+    width: 100%;
+    /* flex-direction: ; */
+}
+.partner-section2{
+    margin: 0 auto;
+    max-width: 1200px;
+    /* background: #E5E5E5; */
+}
+.partner-section2 h4{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+
+display: flex;
+align-items: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding-bottom: 35px;
+color: #6200F0;
+
+}
+.partner-section2-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: space-between; */
+gap: 32px;
+padding-bottom: 275px;
+}
+.partner-section2-1-paragraph{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+width: 567px;
+color: rgba(51, 51, 51, 0.9);
+
+}
+.partner-section2-1 h2{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 50px;
+/* or 135% */
+width: 499px;
+
+color: #030640;
+
+}
+.partner-section2-1-border{
+    border-left: 3px solid 
+    #6200F0;
+    width: 440px;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    padding-left: 10px;
+    color: rgba(51, 51, 51, 0.9);
+
+    height: 56px;
+}
+.partner-section2 h1{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 65px;
+/* or 176% */
+/* width: 394px; */
+text-align: center;
+color: #030640;
+padding-bottom: 50px;
+
+}
+.partner-section3{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 1000px;
+height: 692px;
+left: 220px;
+top: 1353px;
+
+background: #FFFFFF;
+box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+border-radius: 8px;
+}

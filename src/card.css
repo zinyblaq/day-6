@@ -1,0 +1,38 @@
+.main-container{
+    width: 379px;
+height: 263px;
+left: 499px;
+top: 2923px;
+margin: 50px 0;
+background: #FFFFFF;
+box-shadow: 5px 2px 24px rgba(0, 0, 0, 0.05);
+border-radius: 4px;
+}
+.card-container{
+    padding:33px 28.63px ;
+}
+.card-container p{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+width: 322px;
+
+color: #333333;
+
+}
+.card-container h2{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+width:120px;
+letter-spacing: 0.2px;
+padding: 24px 0 ;
+color: #030640;
+
+}

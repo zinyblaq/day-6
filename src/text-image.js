@@ -22,17 +22,15 @@ export default function HomeFeatures({
       <div className="text-image-1-1">
         <h1>{text1}</h1>
         <p>{text2}</p>
-
-        {/* <button className="button">{button}</button> */}
       </div>
-      {/* <h1></h1> */}
-
       <div className="text-image-1-2">
-        {/* <div className="landing-1-2"> */}
         <img src={image} alt="" />
-        {/* </div> */}
       </div>
-      {/* </div> */}
     </div>
   );
 }
+
+// function kelechi (ezinne ){
+// return ezinne =10
+// }
+// kelechi()

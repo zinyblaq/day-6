@@ -32,3 +32,26 @@ margin-top: 180px;
     max-width: 1200px;
     margin: 0 auto;
 }
+.HIW-section4{
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+.HIW-section4 h2{
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 52px;
+/* or 141% */
+width: 437px;
+letter-spacing: 0.2px;
+
+color: #030640;
+
+}
+.HIW-section4-card{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    padding-left: 364px;
+    padding-bottom: 213px;
+}

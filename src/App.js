@@ -5,28 +5,18 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './Landing-page';
 import CompanyPage from './pages/companypage';
 import HowItWorks from './pages/how-it-works';
+import Blog from './pages/blogs';
+import Partnership from './pages/partnership';
 
 function App() {
   return (
     <Router>
-      {/* <div> */}
-      {/* <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav> */}
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route exact path="/companypage" element={<CompanyPage />} />
         <Route exact path="/how-it-works" element={<HowItWorks />} />
+        <Route exact path="/blogs" element={<Blog />} />
+        <Route exact path="/partnership" element={<Partnership />} />
       </Routes>
       {/* </div> */}
     </Router>

@@ -1,26 +1,38 @@
 import React from 'react';
 import './featured-fun.css';
-import blackwoman from './pages/HIWlaptop.png';
+
 import icons from './pages/HIWicon2.png';
 
-export default function FeaturedFun(image, h1, p, lists) {
+export default function FeaturedFun({
+  image,
+  h1,
+  p,
+  list1,
+  list2,
+  Imageleft = false,
+}) {
+  const kelechi = {};
+
+  if (Imageleft) {
+    kelechi['flex-direction'] = 'row-reverse';
+  } else {
+    kelechi['flex-direction'] = 'row';
+  }
   return (
-    <div className="main-featuredfun">
+    <div className="main-featuredfun" style={kelechi}>
       <div className="background-line">
-        <img src={blackwoman} alt="yes" />
+        <img src={image} alt="yes" />
       </div>
       <div className="featuredfun-text">
-        <h1>Our Featured Functionalities</h1>
-        <p>Here’re some of the features Flex has to offer.</p>
+        <h1>{h1}</h1>
+        <p>{p}</p>
         <ul>
           <li>
             <div className="featuredfun-text-lists">
               <div>
                 <img src={icons} alt="icon" />
               </div>
-              <h3 className="featured-text-header3">
-                Marketing tools & Discounts and promos
-              </h3>
+              <h3 className="featured-text-header3">{list1}</h3>
             </div>
           </li>
           <li>
@@ -28,9 +40,7 @@ export default function FeaturedFun(image, h1, p, lists) {
               <div>
                 <img src={icons} alt="icon" />
               </div>
-              <h3 className="featured-text-header3">
-                Marketing tools & Discounts and promos
-              </h3>
+              <h3 className="featured-text-header3">{list2}</h3>
             </div>
           </li>
         </ul>
