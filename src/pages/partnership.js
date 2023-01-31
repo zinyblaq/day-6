@@ -47,11 +47,14 @@ export default function Partnership() {
         <h1>Ready to be our partner?</h1>
       </div>
       <div className="partner-section3">
-        {/* <form>
-          <div>
-            <input type="text" name="fname" placeholder="Tope Williams"></input>
-          </div>
-        </form> */}
+        <form>
+          <input
+            type="text"
+            name="email"
+            placeholder="Enter email"
+            className="footer-input"
+          ></input>
+        </form>
       </div>
       <Footer />
     </div>
