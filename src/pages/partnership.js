@@ -48,12 +48,8 @@ export default function Partnership() {
       </div>
       <div className="partner-section3">
         <form>
-          <input
-            type="text"
-            name="email"
-            placeholder="Enter email"
-            className="footer-input"
-          ></input>
+          <label>Enter your name:</label>
+          <input type="text" placeholder="enter your enail" value="name" />
         </form>
       </div>
       <Footer />
