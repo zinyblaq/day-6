@@ -49,15 +49,7 @@ export default function Partnership() {
       <div className="partner-section3">
         <form>
           <label>Enter your name:</label>
-          <input type="text" placeholder="enter your enail" value="name" />
-          <input type="text" placeholder="enter your enail" value="name" />
-          <input type="text" placeholder="enter your enail" value="name" />
-          <input type="text" placeholder="enter your enail" value="name" />
-          <input type="text" placeholder="enter your enail" value="name" />
-          <input type="text" placeholder="enter your enail" value="name" />
-          <input type="text" placeholder="enter your enail" value="name" />
-          <input type="text" placeholder="enter your enail" value="name" />
-          <input type="text" placeholder="enter your enail" value="name" />
+          <input type="text" placeholder="enter your enail" />
         </form>
       </div>
       <Footer />
