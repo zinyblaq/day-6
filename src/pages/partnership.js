@@ -50,6 +50,9 @@ export default function Partnership() {
         <form>
           <label>Enter your name:</label>
           <input type="text" placeholder="enter your enail" />
+          <input type="text" placeholder="enter your enail" />
+          <input type="text" placeholder="enter your enail" />
+          <input type="text" placeholder="enter your enail" />
         </form>
       </div>
       <Footer />
