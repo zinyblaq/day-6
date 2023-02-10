@@ -53,6 +53,7 @@ export default function Partnership() {
           <input type="text" placeholder="enter your enail" />
           <input type="text" placeholder="enter your enail" />
           <input type="text" placeholder="enter your enail" />
+          <input type="text" placeholder="enter your enail" />
         </form>
       </div>
       <Footer />
