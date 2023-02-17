@@ -3,6 +3,8 @@ import './partnership.css';
 import Header from '../header';
 import Footer from '../footer';
 import rest from './rest.png';
+import letter from './letter.png';
+import { isContentEditable } from '@testing-library/user-event/dist/utils';
 
 export default function Partnership() {
   return (
@@ -47,17 +49,44 @@ export default function Partnership() {
         <h1>Ready to be our partner?</h1>
       </div>
       <div className="partner-section3">
-        <form>
-          <label>Enter your name:</label>
-          <input type="text" placeholder="enter your enail" />
-          <input type="text" placeholder="enter your enail" />
-          <input type="text" placeholder="enter your enail" />
-          <input type="text" placeholder="enter your enail" />
-          <input type="text" placeholder="enter your enail" />
-          <input type="text" placeholder="enter your enail" />
-
-          <input type="text" placeholder="enter your enail" />
+        <form form className="form">
+          <div>
+            <label>Full Name*</label>
+            <input type="text" placeholder="Tope Williams" className="input" />
+          </div>
+          <div>
+            <label>Contact Email*</label>
+            <input
+              type="text"
+              placeholder="you@example.com"
+              className="input"
+            />
+          </div>
+          <div>
+            <label>Subject*</label>
+            <input
+              type="text"
+              placeholder="enter subject here"
+              className="input"
+            />
+          </div>
+          <div>
+            <label>Resume*</label>
+            <input type="text" placeholder="choose file" className="resume" />
+            <button className="btn-choose">Choose file-pdf</button>
+          </div>
         </form>
+        <div>
+          <label>Tell Us About You*</label>
+          <input type="text" placeholder="let us know" />
+        </div>
+        <p>
+          By submitting this form you agree to our terms and conditions and our
+          Privacy Policy.
+        </p>
+        <button>
+          <img src={letter} alt="letter" /> APPLY NOW
+        </button>
       </div>
       <Footer />
     </div>
